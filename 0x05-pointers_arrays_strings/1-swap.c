@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int(int *a, int *b) - Function to swap values
+ * swap_int - Function to swap values
  *
  * @a: a pointer to an integer variable address 1
  * @b: a pointer to an integer var addr 2
