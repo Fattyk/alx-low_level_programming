@@ -22,6 +22,7 @@ void print_rev(char *s)
 
 	while (count != 0)
 	{
+		track = *(s + count);
 		_putchar(track);
 		count -= 1;
 		track = *(s - count);
