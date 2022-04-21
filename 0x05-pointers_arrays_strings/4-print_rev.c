@@ -11,13 +11,12 @@
 void print_rev(char *s)
 {
 	int count = 0;
-	char track = *(str + count);
-	char las = track
+	char track = *(s + count);
 
 	while (track != 0)
 	{
 		count += 1;
-		track = *(str + count);
+		track = *(s + count);
 	}
 
 
@@ -25,7 +24,7 @@ void print_rev(char *s)
 	{
 		_putchar(track);
 		count -= 1;
-		track = *(str - count);
+		track = *(s - count);
 	}
 	_putchar('\n');
 }
