@@ -10,14 +10,13 @@
 
 int _strlen(char *s)
 {
-	char i[] = *s;
 	int count = 0;
-	char track = i[0];
+	char track = *(s + count);
 
 	while (track != 0)
 	{
 		count += 1;
-		track = i[count];
+		track = *(s + count);
 	}
 	return (count);
 }
