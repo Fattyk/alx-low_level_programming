@@ -11,13 +11,13 @@
 void _puts(char *str)
 {
 	int count = 0;
-	char track = *(s + count);
+	char track = *(str + count);
 
 	while (track != 0)
 	{
 		_putchar(track);
 		count += 1;
-		track = *(s + count);
+		track = *(str + count);
 	}
 	_putchar('\n');
 }
