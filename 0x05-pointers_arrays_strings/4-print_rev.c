@@ -19,6 +19,7 @@ void print_rev(char *s)
 		track = *(s + count);
 	}
 
+	count -= 1;
 
 	while (count >= 0)
 	{
