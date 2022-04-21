@@ -3,7 +3,7 @@
 /**
  * _strlen - check the code
  *
- * @s - pointer to char
+ * @s: pointer to char
  *
  * Return: count (int)
  */
