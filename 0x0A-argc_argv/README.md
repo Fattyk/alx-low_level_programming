@@ -1,3 +1,2 @@
-# 0x0A. C - argc, argv
+#My alx root folder
 
-This project tasks contributes to learning the functions of argc and argv in C
