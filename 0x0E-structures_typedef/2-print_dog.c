@@ -12,7 +12,6 @@
 void print_dog(struct dog *d)
 {
 	d->name = malloc(sizeof(char));
-	d->age = malloc(sizeof(float));
 	d->owner = malloc(sizeof(char));
 	printf("Name: %s\n", d->name);
 	printf("Age: %f\n", d->age);
