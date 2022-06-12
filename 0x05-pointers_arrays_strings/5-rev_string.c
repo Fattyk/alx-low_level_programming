@@ -7,29 +7,24 @@
  *
  * Return: Always 0.
  */
-
 void rev_string(char *s)
 {
-	int count = 0;
-	char track = *(s + count);
-	char i[];
-	int counts = 0;
+	int i, max, half;
+	char first, last;
 
-	while (track != 0)
+	i = 0;
+	while (s[i] != '\0')
 	{
-		count += 1;
-		track = *(s + count);
+		i++;
 	}
-
-	count -= 1;
-
-	while (count >= 0)
+	max = i - 1;
+	half = max / 2;
+	while (half >= 0)
 	{
-		track = *(s + count);
-		i[counts] = track;
-		count -= 1;
-		counts += 1
-		track = *(s - count);
+		first = s[max - half];
+		last = s[half];
+		s[half] = first;
+		s[max - half] = last;
+		half--;
 	}
-	*s = i;
 }
